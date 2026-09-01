@@ -1,0 +1,609 @@
+<!-- DESTINATIONS VIEW -->
+<div id="view-destinations" class="page-view">
+  <div class="subpage-header">
+    <div class="container">
+      <div class="subpage-breadcrumbs">
+        <a href="#home">Home</a>
+        <span>/</span>
+        <span>Destinations</span>
+      </div>
+      <h1 class="subpage-title">Explore Worldwide Destinations</h1>
+      <p class="subpage-subtitle">Reliable flight routes, hotel selections, and visa services from Islamabad to prime destinations across the Middle East, Asia, Europe, and sacred pilgrimage centers.</p>
+    </div>
+  </div>
+
+  <section class="section-padding">
+    <div class="container">
+      <!-- Filter Chips for Destinations -->
+      <div class="filter-pills-bar" id="destinationsFilterBar">
+        <button class="filter-pill active" data-filter="all">All Destinations</button>
+        <button class="filter-pill" data-filter="pilgrimage">Pilgrimages & Sacred</button>
+        <button class="filter-pill" data-filter="leisure">Leisure & Shopping</button>
+        <button class="filter-pill" data-filter="heritage">History & Heritage</button>
+        <button class="filter-pill" data-filter="nature">Nature & Alps</button>
+      </div>
+
+      <div class="destinations-grid" id="destinationsGrid">
+        <!-- Saudi Arabia -->
+        <div class="destination-card" data-category="pilgrimage">
+          <div class="destination-img-box">
+            <img src="/assets/makkah-kaaba.jpg" alt="Makkah Holy Kaaba and Masjid al-Haram" loading="lazy" width="600" height="400">
+            <span class="destination-tag">Saudi Arabia</span>
+          </div>
+          <div class="destination-content">
+            <div>
+              <h3 class="destination-title">Makkah & Madinah Al-Munawwarah</h3>
+              <p class="destination-desc">Complete pilgrimage management for Umrah and Hajj, direct airline connections to Jeddah and Madinah, and tourist/business travel support.</p>
+              <div class="destination-services">
+                <span class="dest-pill">Umrah Packages</span>
+                <span class="dest-pill">Haram Hotels</span>
+                <span class="dest-pill">Direct Flights</span>
+              </div>
+            </div>
+            <a href="#umrah-hajj" class="btn-primary" style="font-size:0.875rem; text-align:center;">View Pilgrimage Options</a>
+          </div>
+        </div>
+
+        <!-- UAE -->
+        <div class="destination-card" data-category="leisure">
+          <div class="destination-img-box">
+            <img src="/assets/dubai-burj-khalifa.jpg" alt="Burj Khalifa and Dubai Skyline" loading="lazy" width="600" height="400">
+            <span class="destination-tag">UAE</span>
+          </div>
+          <div class="destination-content">
+            <div>
+              <h3 class="destination-title">Dubai, Abu Dhabi & Sharjah</h3>
+              <p class="destination-desc">The premier Middle Eastern hub for business, shopping, and family holidays. Tourist e-visas processed rapidly with daily direct flights.</p>
+              <div class="destination-services">
+                <span class="dest-pill">Tourist E-Visa</span>
+                <span class="dest-pill">Desert Safaris</span>
+                <span class="dest-pill">City Hotels</span>
+              </div>
+            </div>
+            <a href="#booking" class="btn-primary" style="font-size:0.875rem; text-align:center;">Request UAE Quote</a>
+          </div>
+        </div>
+
+        <!-- Turkey -->
+        <div class="destination-card" data-category="heritage">
+          <div class="destination-img-box">
+            <img src="/assets/istanbul-hagia-sophia.jpg" alt="Hagia Sophia and Istanbul Heritage" loading="lazy" width="600" height="400">
+            <span class="destination-tag">Turkey</span>
+          </div>
+          <div class="destination-content">
+            <div>
+              <h3 class="destination-title">Istanbul, Cappadocia & Antalya</h3>
+              <p class="destination-desc">Stunning blend of Islamic and European history, hot air balloons in Cappadocia, coastal Mediterranean beauty, and rich culinary culture.</p>
+              <div class="destination-services">
+                <span class="dest-pill">Ottoman Heritage</span>
+                <span class="dest-pill">Bosphorus Cruise</span>
+                <span class="dest-pill">Visa Assistance</span>
+              </div>
+            </div>
+            <a href="#booking" class="btn-primary" style="font-size:0.875rem; text-align:center;">Request Turkey Quote</a>
+          </div>
+        </div>
+
+        <!-- Thailand -->
+        <div class="destination-card" data-category="nature">
+          <div class="destination-img-box">
+            <img src="/assets/phuket-thailand.jpg" alt="Phuket Island Thailand" loading="lazy" width="600" height="400">
+            <span class="destination-tag">Thailand</span>
+          </div>
+          <div class="destination-content">
+            <div>
+              <h3 class="destination-title">Bangkok, Phuket & Pattaya</h3>
+              <p class="destination-desc">Exotic tropical getaways with world-class beach resorts, island excursions, family theme parks, and vibrant shopping districts.</p>
+              <div class="destination-services">
+                <span class="dest-pill">Island Speedboats</span>
+                <span class="dest-pill">Beach Resorts</span>
+                <span class="dest-pill">Tourist Visa</span>
+              </div>
+            </div>
+            <a href="#booking" class="btn-primary" style="font-size:0.875rem; text-align:center;">Request Thailand Quote</a>
+          </div>
+        </div>
+
+        <!-- Switzerland -->
+        <div class="destination-card" data-category="nature">
+          <div class="destination-img-box">
+            <img src="/assets/switzerland-alps.jpg" alt="Swiss Alps and Glaciers" loading="lazy" width="600" height="400">
+            <span class="destination-tag">Switzerland</span>
+          </div>
+          <div class="destination-content">
+            <div>
+              <h3 class="destination-title">Swiss Alps, Zurich & Lucerne</h3>
+              <p class="destination-desc">Breathtaking alpine panoramas, crystal-clear lakes, scenic mountain railways, and luxurious European holiday experiences.</p>
+              <div class="destination-services">
+                <span class="dest-pill">Swiss Travel Pass</span>
+                <span class="dest-pill">Glacier Express</span>
+                <span class="dest-pill">Schengen Guidance</span>
+              </div>
+            </div>
+            <a href="#booking" class="btn-primary" style="font-size:0.875rem; text-align:center;">Request Switzerland Quote</a>
+          </div>
+        </div>
+
+        <!-- Malaysia -->
+        <div class="destination-card" data-category="leisure">
+          <div class="destination-img-box">
+            <img src="/assets/kuala-lumpur-petronas.jpg" alt="Kuala Lumpur Twin Towers" loading="lazy" width="600" height="400">
+            <span class="destination-tag">Malaysia</span>
+          </div>
+          <div class="destination-content">
+            <div>
+              <h3 class="destination-title">Kuala Lumpur, Langkawi & Penang</h3>
+              <p class="destination-desc">Modern metropolitan skyline, lush rainforests, duty-free island beaches, and Muslim-friendly tourism with diverse culinary experiences.</p>
+              <div class="destination-services">
+                <span class="dest-pill">Theme Parks</span>
+                <span class="dest-pill">Halal Dining</span>
+                <span class="dest-pill">Family Stays</span>
+              </div>
+            </div>
+            <a href="#booking" class="btn-primary" style="font-size:0.875rem; text-align:center;">Request Malaysia Quote</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- HOTELS VIEW -->
+<div id="view-hotels" class="page-view">
+  <div class="subpage-header">
+    <div class="container">
+      <div class="subpage-breadcrumbs">
+        <a href="#home">Home</a>
+        <span>/</span>
+        <span>Hotels</span>
+      </div>
+      <h1 class="subpage-title">Worldwide Hotel Reservations</h1>
+      <p class="subpage-subtitle">Verified accommodation bookings suited to your travel budget, location preference, family size, and pilgrimage proximity.</p>
+    </div>
+  </div>
+
+  <section class="section-padding">
+    <div class="container">
+      <div style="display:grid; grid-template-columns:1.1fr 0.9fr; gap:3rem; align-items:center; margin-bottom:3.5rem;">
+        <div>
+          <span class="section-eyebrow">Handpicked Hospitality</span>
+          <h2 style="font-size:2rem; font-weight:700; color:var(--color-primary); margin-bottom:1rem; line-height:1.25;">Strategic Locations & Verified Stays</h2>
+          <p style="color:var(--color-text-muted); font-size:1rem; line-height:1.75; margin-bottom:1rem;">Choosing the right hotel makes all the difference. Asian Aviation works with reputable international lodging providers to secure clean, comfortable, and well-located properties worldwide.</p>
+          <ul class="service-card-features" style="margin-bottom:1.75rem;">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Haram view and walking-distance properties in Makkah & Madinah</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Family connecting rooms, breakfast plans & airport transfer coordination</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Business hotels located near convention centers and financial hubs</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Verified cancellation flexibility and transparent invoicing</li>
+          </ul>
+          <a href="#booking" class="btn-primary">Request Hotel Assistance</a>
+        </div>
+        <div style="border-radius:var(--radius-md); overflow:hidden; box-shadow:var(--shadow-md); border:1px solid var(--color-border);">
+          <img src="/assets/hotel-luxury.jpg" alt="Verified Luxury Hotel Accommodations" loading="lazy" width="600" height="400">
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- VISA VIEW -->
+<div id="view-visa" class="page-view">
+  <div class="subpage-header">
+    <div class="container">
+      <div class="subpage-breadcrumbs">
+        <a href="#home">Home</a>
+        <span>/</span>
+        <span>Visa Assistance</span>
+      </div>
+      <h1 class="subpage-title">Visa Assistance & Consultation</h1>
+      <p class="subpage-subtitle">Accurate file preparation, checklist guidance, and submission assistance for tourist, business, and pilgrimage travel from Islamabad.</p>
+    </div>
+  </div>
+
+  <section class="section-padding">
+    <div class="container">
+      <div style="display:grid; grid-template-columns:1.1fr 0.9fr; gap:3rem; align-items:center; margin-bottom:3.5rem;">
+        <div>
+          <span class="section-eyebrow">Documentation Advisory</span>
+          <h2 style="font-size:2rem; font-weight:700; color:var(--color-primary); margin-bottom:1rem; line-height:1.25;">Professional Application Support</h2>
+          <p style="color:var(--color-text-muted); font-size:1rem; line-height:1.75; margin-bottom:1rem;">Navigating visa requirements can be complex. Our experienced travel desk helps ensure your documents are prepared correctly in accordance with current embassy standards.</p>
+          
+          <div style="background-color:var(--color-bg-subtle); border-left:4px solid var(--color-accent); padding:1.25rem; border-radius:0 var(--radius-sm) var(--radius-sm) 0; margin-bottom:1.75rem; border-top:1px solid var(--color-border); border-right:1px solid var(--color-border); border-bottom:1px solid var(--color-border);">
+            <strong style="color:var(--color-primary); font-size:0.9375rem; display:block; margin-bottom:0.25rem;">Official Notice & Advisory:</strong>
+            <p style="font-size:0.875rem; color:var(--color-text-muted); line-height:1.6;">Visa requirements, processing times, and final approval decisions are determined solely by the relevant embassies, consulates, and immigration authorities and are subject to change.</p>
+          </div>
+          
+          <a href="#booking" class="btn-primary">Request Visa Consultation</a>
+        </div>
+        <div style="border-radius:var(--radius-md); overflow:hidden; box-shadow:var(--shadow-md); border:1px solid var(--color-border);">
+          <img src="/assets/visa-passport.jpg" alt="International Visa Assistance and Passport Guidance" loading="lazy" width="600" height="400">
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- UMRAH & HAJJ VIEW -->
+<div id="view-umrah-hajj" class="page-view">
+  <div class="subpage-header">
+    <div class="container">
+      <div class="subpage-breadcrumbs">
+        <a href="#home">Home</a>
+        <span>/</span>
+        <span>Umrah & Hajj</span>
+      </div>
+      <h1 class="subpage-title">Umrah & Hajj Pilgrimage Services</h1>
+      <p class="subpage-subtitle">Dedicated, respectful arrangements for holy pilgrimages to Makkah and Madinah with transparent logistics, Haram hotels, and flights from Islamabad.</p>
+    </div>
+  </div>
+
+  <section class="section-padding">
+    <div class="container">
+      <div class="services-grid" style="margin-bottom:3.5rem;">
+        <!-- Package 1 -->
+        <div class="service-card" style="border-top:4px solid var(--color-primary);">
+          <div class="destination-img-box" style="height:180px; margin:-2rem -2rem 1.5rem -2rem; border-radius:var(--radius-md) var(--radius-md) 0 0;">
+            <img src="/assets/makkah-kaaba.jpg" alt="Economy & Standard Umrah Packages" loading="lazy" width="400" height="250">
+            <span class="destination-tag">Standard & Economy</span>
+          </div>
+          <h3 style="color:var(--color-primary); margin-bottom:0.5rem;">Economy & Standard Umrah</h3>
+          <p>Comfortable, budget-friendly pilgrimage arrangements with verified 3-star or 4-star hotels offering convenient 24/7 shuttle or short walking access to Haram.</p>
+          <ul class="service-card-features">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Direct & connecting flight options (ISB-JED-ISB)</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Official Saudi Visa & Nusuk coordination</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Shared / private AC coach transportation</li>
+          </ul>
+          <a href="#booking" class="btn-primary" style="width:100%; text-align:center; margin-top:1rem;">Request Economy Quote</a>
+        </div>
+
+        <!-- Package 2 -->
+        <div class="service-card" style="border-top:4px solid var(--color-accent);">
+          <div class="destination-img-box" style="height:180px; margin:-2rem -2rem 1.5rem -2rem; border-radius:var(--radius-md) var(--radius-md) 0 0;">
+            <img src="/assets/madinah-mosque.jpg" alt="Executive 5-Star VIP Umrah Packages" loading="lazy" width="400" height="250">
+            <span class="destination-tag" style="background-color:var(--color-accent);">5-Star Executive VIP</span>
+          </div>
+          <h3 style="color:var(--color-primary); margin-bottom:0.5rem;">Executive 5-Star VIP Umrah</h3>
+          <p>Premium pilgrimage luxury featuring Clock Tower or direct courtyard facing 5-star hotels in Makkah and Madinah with VIP private GMC transfers.</p>
+          <ul class="service-card-features">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Direct Saudia / PIA flights with flexible dates</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> 5-Star Haram front properties with buffet breakfast</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Dedicated private GMC / SUV transport & historic sites tour</li>
+          </ul>
+          <a href="#booking" class="btn-primary" style="width:100%; text-align:center; margin-top:1rem;">Request VIP Quote</a>
+        </div>
+
+        <!-- Package 3 -->
+        <div class="service-card" style="border-top:4px solid var(--color-primary);">
+          <div class="destination-img-box" style="height:180px; margin:-2rem -2rem 1.5rem -2rem; border-radius:var(--radius-md) var(--radius-md) 0 0;">
+            <img src="/assets/office-travel-agent.jpg" alt="Hajj Consultation and Guidance" loading="lazy" width="400" height="250">
+            <span class="destination-tag">Annual Hajj</span>
+          </div>
+          <h3 style="color:var(--color-primary); margin-bottom:0.5rem;">Hajj Consultation & Advisory</h3>
+          <p>Professional briefing regarding official Ministry of Religious Affairs (MORA) quota guidelines, private scheme registration, and preparation advice.</p>
+          <ul class="service-card-features">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Comprehensive policy and quota briefings</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Documentation and medical verification support</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Pre-departure spiritual and physical orientation</li>
+          </ul>
+          <a href="#contact" class="btn-primary" style="width:100%; text-align:center; margin-top:1rem;">Inquire About Hajj</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- BOOKING / REQUEST QUOTE VIEW -->
+<div id="view-booking" class="page-view">
+  <div class="subpage-header">
+    <div class="container">
+      <div class="subpage-breadcrumbs">
+        <a href="#home">Home</a>
+        <span>/</span>
+        <span>Plan My Trip</span>
+      </div>
+      <h1 class="subpage-title">Plan My Trip / Request a Quote</h1>
+      <p class="subpage-subtitle">Tell us about your upcoming travel plans and our travel managers in Islamabad will prepare customized quotation options for your review.</p>
+    </div>
+  </div>
+
+  <section class="section-padding">
+    <div class="container" style="max-width:860px;">
+      <div style="background:#FFFFFF; border:1px solid var(--color-border); border-radius:var(--radius-md); padding:2.5rem; box-shadow:var(--shadow-md);">
+        <form id="mainBookingForm" class="travel-inquiry-form" data-service="General Quote Request">
+          <div class="form-grid">
+            <div class="form-group" style="grid-column: 1 / -1;">
+              <label class="form-label">Select Service Needed *</label>
+              <select class="form-control" name="req_service" required>
+                <option value="International Flight Ticketing">International Flight Ticketing</option>
+                <option value="Domestic Pakistan Flight">Domestic Pakistan Flight</option>
+                <option value="Tour Package (Dubai, Turkey, Thailand, etc.)">Tour Package (Dubai, Turkey, Thailand, etc.)</option>
+                <option value="Umrah / Hajj Package">Umrah / Hajj Package</option>
+                <option value="Hotel Reservation">Hotel Reservation</option>
+                <option value="Visa Assistance">Visa Assistance</option>
+                <option value="Corporate & Group Travel">Corporate & Group Travel</option>
+                <option value="Customized Multi-Service Travel">Customized Multi-Service Travel</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Your Full Name *</label>
+              <input type="text" class="form-control" name="req_name" placeholder="e.g. Muhammad Ali" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Phone / WhatsApp Number *</label>
+              <input type="tel" class="form-control" name="req_phone" placeholder="+92-300-1234567" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Email Address *</label>
+              <input type="email" class="form-control" name="req_email" placeholder="name@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Destination of Interest *</label>
+              <input type="text" class="form-control" name="req_destination" placeholder="e.g. Dubai, Makkah, Istanbul" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Approximate Travel Date</label>
+              <input type="date" class="form-control" name="req_date">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Number of Travelers</label>
+              <input type="number" min="1" max="50" class="form-control" name="req_passengers" value="1">
+            </div>
+
+            <div class="form-group" style="grid-column: 1 / -1;">
+              <label class="form-label">Specific Preferences or Requirements</label>
+              <textarea class="form-control" name="req_notes" rows="4" placeholder="Mention airline preferences, hotel standards, room sharing, or budget guidelines..."></textarea>
+            </div>
+
+            <div class="form-group" style="grid-column: 1 / -1; margin-top:1rem;">
+              <button type="submit" class="btn-primary" style="width:100%; padding:0.875rem; font-size:1rem;">Submit Travel Request</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- BLOG VIEW -->
+<div id="view-blog" class="page-view">
+  <div class="subpage-header">
+    <div class="container">
+      <div class="subpage-breadcrumbs">
+        <a href="#home">Home</a>
+        <span>/</span>
+        <span>Travel Guides</span>
+      </div>
+      <h1 class="subpage-title">Asian Aviation Travel Blog & Guides</h1>
+      <p class="subpage-subtitle">Practical travel advice, visa documentation guides, Umrah essentials, and destination insights from Islamabad.</p>
+    </div>
+  </div>
+
+  <section class="section-padding">
+    <div class="container">
+      <div class="blog-grid">
+        <!-- Post 1 -->
+        <div class="blog-card">
+          <div class="blog-img-box">
+            <img src="/assets/makkah-kaaba.jpg" alt="Essential Umrah Packing Guide" loading="lazy" width="400" height="250">
+          </div>
+          <div class="blog-body">
+            <div>
+              <div class="blog-meta">
+                <span class="blog-tag">Umrah & Hajj</span>
+                <span>Travel Guide</span>
+              </div>
+              <h3 class="blog-title">First-Time Umrah Guide from Islamabad: Documentation & Tips</h3>
+              <p class="blog-excerpt">Everything Pakistani pilgrims need to know regarding Saudi visa guidelines, Nusuk app registration, packing essentials, and navigating Haram.</p>
+            </div>
+            <a href="#booking" class="blog-link">
+              <span>Inquire Umrah Packages</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Post 2 -->
+        <div class="blog-card">
+          <div class="blog-img-box">
+            <img src="/assets/dubai-burj-khalifa.jpg" alt="Dubai 5 Day Family Itinerary" loading="lazy" width="400" height="250">
+          </div>
+          <div class="blog-body">
+            <div>
+              <div class="blog-meta">
+                <span class="blog-tag">Holiday Tours</span>
+                <span>Destination Guide</span>
+              </div>
+              <h3 class="blog-title">Planning a 5-Day Dubai Family Vacation: Top Experiences</h3>
+              <p class="blog-excerpt">A balanced itinerary featuring Burj Khalifa, desert safari adventures, marina dhow dinners, and family theme parks with convenient flight connections.</p>
+            </div>
+            <a href="#booking" class="blog-link">
+              <span>Explore Dubai Tours</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Post 3 -->
+        <div class="blog-card">
+          <div class="blog-img-box">
+            <img src="/assets/visa-passport.jpg" alt="Visa Application Common Mistakes" loading="lazy" width="400" height="250">
+          </div>
+          <div class="blog-body">
+            <div>
+              <div class="blog-meta">
+                <span class="blog-tag">Visa Guides</span>
+                <span>Documentation</span>
+              </div>
+              <h3 class="blog-title">Key Documentation Checks for Pakistani Passport Holders</h3>
+              <p class="blog-excerpt">Avoid common delays in visa processing with our comprehensive checklist for bank statements, photographs, and embassy appointment scheduling.</p>
+            </div>
+            <a href="#visa" class="blog-link">
+              <span>Visa Consultation</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- CONTACT VIEW -->
+<div id="view-contact" class="page-view">
+  <div class="subpage-header">
+    <div class="container">
+      <div class="subpage-breadcrumbs">
+        <a href="#home">Home</a>
+        <span>/</span>
+        <span>Contact</span>
+      </div>
+      <h1 class="subpage-title">Contact Asian Aviation</h1>
+      <p class="subpage-subtitle">Visit our travel agency desk in Phase 7 Bahria Town, Islamabad, or speak directly with our travel consultants via phone or WhatsApp.</p>
+    </div>
+  </div>
+
+  <section class="section-padding">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info-panel">
+          <h3>Islamabad Head Office</h3>
+          <p>We welcome you to visit us in person for flight bookings, holiday planning, visa assistance, and religious pilgrimage consultation.</p>
+          
+          <div class="contact-items-list">
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div class="contact-detail-text">
+                <h5>Office Address</h5>
+                <p>Office No. 1 & 2, Butt Arcade Mini Commercial,<br>Phase 7 Bahria Town, Islamabad, 46000, Pakistan</p>
+              </div>
+            </div>
+
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div class="contact-detail-text">
+                <h5>Phone Desks</h5>
+                <p><a href="tel:+923052227872">+92-305-2227872</a></p>
+                <p><a href="tel:+923315382405">+92-331-5382405</a></p>
+              </div>
+            </div>
+
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div class="contact-detail-text">
+                <h5>Official Emails</h5>
+                <p><a href="mailto:info@asiangroup.pk">info@asiangroup.pk</a></p>
+                <p><a href="mailto:awais@asiangroup.pk">awais@asiangroup.pk</a> / <a href="mailto:fahad@asiangroup.pk">fahad@asiangroup.pk</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div style="display:flex; gap:1rem; flex-wrap:wrap;">
+            <a href="https://maps.google.com/?q=Phase+7+Bahria+Town+Islamabad" target="_blank" rel="noopener" class="btn-secondary" style="font-size:0.875rem;">View on Google Maps</a>
+            <a href="https://wa.me/923052227872?text=Hello%20Asian%20Aviation,%20I%20would%20like%20to%20inquire%20about%20travel%20services" target="_blank" class="btn-primary" style="background-color:#25D366; font-size:0.875rem; border-color:#25D366;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+              <span>WhatsApp Us</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-form-panel">
+          <h3 style="font-size:1.5rem; font-weight:700; color:var(--color-primary); margin-bottom:1.5rem;">Send Us a Message</h3>
+          <form class="travel-inquiry-form" data-service="Contact Form Message">
+            <div class="form-group" style="margin-bottom:1rem;">
+              <label class="form-label">Full Name *</label>
+              <input type="text" class="form-control" name="contact_name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group" style="margin-bottom:1rem;">
+              <label class="form-label">Contact Phone / WhatsApp *</label>
+              <input type="tel" class="form-control" name="contact_phone" placeholder="+92 300 0000000" required>
+            </div>
+            <div class="form-group" style="margin-bottom:1rem;">
+              <label class="form-label">Email Address *</label>
+              <input type="email" class="form-control" name="contact_email" placeholder="yourname@domain.com" required>
+            </div>
+            <div class="form-group" style="margin-bottom:1rem;">
+              <label class="form-label">Subject</label>
+              <input type="text" class="form-control" name="contact_subject" placeholder="e.g. Umrah Inquiry / Flight Tickets">
+            </div>
+            <div class="form-group" style="margin-bottom:1.5rem;">
+              <label class="form-label">Message Details *</label>
+              <textarea class="form-control" name="contact_msg" rows="4" placeholder="How can we assist your travel plans?" required></textarea>
+            </div>
+            <button type="submit" class="btn-primary" style="width:100%;">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- PRIVACY POLICY VIEW -->
+<div id="view-privacy" class="page-view">
+  <div class="subpage-header">
+    <div class="container">
+      <div class="subpage-breadcrumbs">
+        <a href="#home">Home</a>
+        <span>/</span>
+        <span>Privacy Policy</span>
+      </div>
+      <h1 class="subpage-title">Privacy Policy</h1>
+      <p class="subpage-subtitle">Asian Aviation (Asian Group) Privacy & Data Protection Guidelines</p>
+    </div>
+  </div>
+  <section class="section-padding">
+    <div class="container" style="max-width:800px; line-height:1.8; color:var(--color-text-main);">
+      <h2 style="font-size:1.5rem; color:var(--color-primary); margin-bottom:0.75rem;">1. Information We Collect</h2>
+      <p style="color:var(--color-text-muted); margin-bottom:1.5rem;">When you submit an inquiry, request a flight quote, or book travel packages through Asian Aviation, we collect personal information such as your name, contact phone number, email address, passport information (when required for ticketing or visas), and travel dates.</p>
+
+      <h2 style="font-size:1.5rem; color:var(--color-primary); margin-bottom:0.75rem;">2. Use of Information</h2>
+      <p style="color:var(--color-text-muted); margin-bottom:1.5rem;">Your information is used strictly to process flight reservations, secure hotel bookings, prepare visa documentation, coordinate pilgrimage itineraries, and communicate directly regarding your trip.</p>
+
+      <h2 style="font-size:1.5rem; color:var(--color-primary); margin-bottom:0.75rem;">3. Data Security & Third Parties</h2>
+      <p style="color:var(--color-text-muted); margin-bottom:1.5rem;">We do not sell or rent your personal information. Information is only shared with relevant airlines, hotels, embassies/consulates, and ground handling partners strictly necessary to fulfill your booked services.</p>
+
+      <h2 style="font-size:1.5rem; color:var(--color-primary); margin-bottom:0.75rem;">4. Contact Us</h2>
+      <p style="color:var(--color-text-muted);">For privacy questions, please contact our data team at <a href="mailto:info@asiangroup.pk" style="color:var(--color-accent); font-weight:600;">info@asiangroup.pk</a>.</p>
+    </div>
+  </section>
+</div>
+
+<!-- TERMS & CONDITIONS VIEW -->
+<div id="view-terms" class="page-view">
+  <div class="subpage-header">
+    <div class="container">
+      <div class="subpage-breadcrumbs">
+        <a href="#home">Home</a>
+        <span>/</span>
+        <span>Terms & Conditions</span>
+      </div>
+      <h1 class="subpage-title">Terms & Conditions</h1>
+      <p class="subpage-subtitle">Asian Aviation Travel Services & Booking Policies</p>
+    </div>
+  </div>
+  <section class="section-padding">
+    <div class="container" style="max-width:800px; line-height:1.8; color:var(--color-text-main);">
+      <h2 style="font-size:1.5rem; color:var(--color-primary); margin-bottom:0.75rem;">1. Quotations & Pricing</h2>
+      <p style="color:var(--color-text-muted); margin-bottom:1.5rem;">Flight ticket fares, hotel rates, and tour package costs fluctuate in real-time based on airline availability, currency exchange rates, and seasonal demand. A quotation is only confirmed upon formal booking and payment issuance.</p>
+
+      <h2 style="font-size:1.5rem; color:var(--color-primary); margin-bottom:0.75rem;">2. Airline & Hotel Policies</h2>
+      <p style="color:var(--color-text-muted); margin-bottom:1.5rem;">Changes, cancellations, and refunds are governed by the specific fare rules and terms of the operating airline or hotel property. Service charges may apply for processing date changes or ticket refunds.</p>
+
+      <h2 style="font-size:1.5rem; color:var(--color-primary); margin-bottom:0.75rem;">3. Visa Regulations Disclaimer</h2>
+      <p style="color:var(--color-text-muted); margin-bottom:1.5rem;">Asian Aviation acts solely as a documentation advisory and submission facilitator. Final approval, processing duration, and granting of visas remain under the sole sovereign jurisdiction of the destination country's embassy or immigration authorities.</p>
+
+      <h2 style="font-size:1.5rem; color:var(--color-primary); margin-bottom:0.75rem;">4. Traveler Responsibilities</h2>
+      <p style="color:var(--color-text-muted);">Travelers are responsible for ensuring their passports have a minimum of 6 months validity from the travel date, possessing necessary vaccinations or transit requirements, and arriving at departure airports within the required check-in timeframes.</p>
+    </div>
+  </section>
+</div>

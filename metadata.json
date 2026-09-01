@@ -1,0 +1,6 @@
+{
+  "name": "Asian Aviation - Travel Agency Islamabad",
+  "description": "Official website for Asian Aviation (Asian Group) in Islamabad, Pakistan. Offering domestic & international flight ticketing, customized tour packages, hotel reservations, visa assistance, Umrah & Hajj pilgrimages, and corporate travel services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
